@@ -8,7 +8,7 @@ function VideoFooter({channel,description,song}) {
         <div className="videoFooter">
             <div className="videoFooter_text">
                 <h3>@{channel}</h3>
-                <p>{description}}</p>
+                <p>{description}</p>
                 <div className="videoFooter_icon">
                     <MusicNoteIcon className="videoFooter_icon"/>
                     <Ticker mode="smooth">
